@@ -5,14 +5,14 @@ export const orders = [
   {
     "orderId": 1000000145601,
     "purchasedOn": "2019-06-05",
-    "customerName": ", interviewed by: <a href=\"https://leetcode.com/problems/broken-calculator/\" target=\"_blank\"><u>Art Blakey</u></a>",
+    "customerName": "<a href=\"https://leetcode.com/problems/broken-calculator/\" target=\"_blank\"><u>Art Blakey</u></a>",
     "subtotal": "£200",
     "status": "pending"
   },
   {
     "orderId": 1000000145602,
     "purchasedOn": "2019-04-22",
-    "customerName": "Brian Black",
+    "customerName": "<a href=\"https://leetcode.com/problems/broken-calculator/\" target=\"_blank\"><u>Jasraj Date</u></a>",
     "subtotal": "£402",
     "status": "completed"
   },
