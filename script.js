@@ -11,12 +11,7 @@ angular.module("myapp", [])
                 {name:'Arpan',lastname:'Mehta',department:'QA',country:'US',designation:'TL QA',ratting:3}
             ];
 
-            $scope.ratings=[
-                {option:'first',value:1},
-                {option:'second',value:2},
-                {option:'third',value:3},
-                {option:'fourth',value:4}
-            ];
+
         });
 
 (function(document) {

@@ -1,4 +1,9 @@
-<html>
+<!--
+  ~ Copyright (c) 2015. Kirtesh Wani (Selenium By Needs)
+  ~ https://www.seleniumbyneeds.blogspot.com
+  -->
+
+  <html>
     <head>
         <script type="text/javascript" src="custom.js"> </script>
         <link rel="stylesheet" type="text/css" href="../common/style.css" />
@@ -11,7 +16,7 @@
         </style>
     </head>
     <body>
-    <h1>Tracking Problems</h1>
+    <h1>Tracking Progress</h1>
 
     <div id="form-example" class="example">
         <div class="filter">
@@ -32,19 +37,12 @@
 
             <table class="order-table">
                <thead>
-               <tr><th>Problem</th><th>Difficulty</th><th>Tag</th><th>Solution</th><th>Comments</th></tr>
+               <tr><th>Problems</th><th>Difficulty</th><th>Tags</th><th>Solutions</th><th>Comments</th></tr>
                </thead>
                <tbody>
                <tr ng-repeat="x in names">
-                      <td>{{x.problem}}</td><td>{{x.difficulty}}</td><td>{{x.tag}}</td>
-                   <td>{{x.solution}}</td><td>{{x.comments}}</td>
-
-                    <td>
-                        <!-- I guess, I'm thinking in the wrong way with the a-tags -->
-                        <!-- How do I put the current object (qs) as $scope.currentQs -->
-                        <a href="#" ng-click="edit(qs.query_id)">Edit</a>
-                        <a href="#" ng-click="delete(qs.query_id)">Delete</a>
-                    </td>
+                      <td>{{x.problems}}</td><td>{{x.difficulty}}</td><td>{{x.tags}}</td>
+                   <td>{{x.solutions}}</td><td>{{x.comments}}</td>
                   </tr>
                </tbody>
            </table>
