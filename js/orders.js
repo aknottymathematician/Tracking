@@ -12,7 +12,7 @@ export const orders = [
   {
     "orderId": 1000000145602,
     "purchasedOn": "2019-04-22",
-    "customerName": "<a href=\"https://leetcode.com/problems/broken-calculator/\" target=\"_blank\"><u>Jasraj Date</u></a>",
+    "customerName": "<a href=\https://leetcode.com/problems/2-keys-keyboard/\target=\_blank\><u>2 Keys Keyboard </u></a>",
     "subtotal": "£402",
     "status": "completed"
   },
