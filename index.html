@@ -36,15 +36,15 @@
                </thead>
                <tbody>
                <tr ng-repeat="x in names">
-                      <td>{{x.name + ' ' + x.lastname }}</td><td>{{x.designation}}</td><td>{{x.department}}</td>
-                   <td>{{x.country}}</td><td><select>
+                      <td>{{x.problem}}</td><td>{{x.difficulty}}</td><td>{{x.tag}}</td>
+                   <td>{{x.solution}}</td><td>{{x.comments}}</td>
 
-                   <option ng-selected="{{op.value == x.ratting}}" value="{{op.value}}" ng-repeat="op in ratings">
-                       {{op.option}}
-
-                   </option>
-
-                </select></td>
+                    <td>
+                        <!-- I guess, I'm thinking in the wrong way with the a-tags -->
+                        <!-- How do I put the current object (qs) as $scope.currentQs -->
+                        <a href="#" ng-click="edit(qs.query_id)">Edit</a>
+                        <a href="#" ng-click="delete(qs.query_id)">Delete</a>
+                    </td>
                   </tr>
                </tbody>
            </table>
