@@ -1,56 +1,55 @@
-<!--
-  ~ Copyright (c) 2015. Kirtesh Wani (Selenium By Needs)
-  ~ https://www.seleniumbyneeds.blogspot.com
-  -->
+<!DOCTYPE html>
+<html>
+	<head>
+<title>Light Javascript Table Filter + Dropdown</title>
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	</head>
+	<body>
+<section class="container">
 
-  <html>
-    <head>
-        <script type="text/javascript" src="custom.js"> </script>
-        <link rel="stylesheet" type="text/css" href="../common/style.css" />
-        <script type="text/javascript" src="../common/angular.js"> </script>
-        <script type="text/javascript" src="../common/jquery.min.js"> </script>
-        <script type="text/javascript" src="../common/corner.js"> </script>
-        <script type="text/javascript" src="custom.js"> </script>
-        <style>
-            .filter {float:left}
-        </style>
-    </head>
-    <body>
-    <h1>Tracking Progress</h1>
+	<h2>Light Javascript Table Filter + dropdown</h2>
 
-    <div id="form-example" class="example">
-        <div class="filter">
+	<input type="search" class="light-table-filter" data-table="order-table" placeholder="Filtrer" />
+  
+  
+  <select type="search" class="select-table-filter" data-table="order-table">
+    <option value="">Reset</option>  
+    <option value="Doe">Doe</option>  
+    <option value="Vanda">Vanda</option>  
+  <select>
 
-        </div>
-        <div class="clear"></div>
-        <div ng-app="myapp" ng-controller="employeeController">
-            <table>
-               <tr>
-                   <td>
-                        <div class="advFilter">
-                        <input type="search" class="light-table-filter" data-table="order-table" placeholder="Filter"/>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+	<table class="order-table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Phone</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>John Doe</td>
+				<td>john.doe@gmail.com</td>
+				<td>0123456789</td>
+				<td>99</td>
+			</tr>
+			<tr>
+				<td>Jane Vanda</td>
+				<td>jane@vanda.org</td>
+				<td>9876543210</td>
+				<td>349</td>
+			</tr>
+			<tr>
+				<td>Alferd Penyworth</td>
+				<td>alfred@batman.com</td>
+				<td>6754328901</td>
+				<td>199</td>
+			</tr>
+		</tbody>
+	</table>
 
+</section>
 
-            <table class="order-table">
-               <thead>
-               <tr><th>Problems</th><th>Difficulty</th><th>Tags</th><th>Solutions</th><th>Comments</th></tr>
-               </thead>
-               <tbody>
-               <tr ng-repeat="x in names">
-                      <td>{{x.problems}}</td><td>{{x.difficulty}}</td><td>{{x.tags}}</td>
-                   <td>{{x.solutions}}</td><td>{{x.comments}}</td>
-                  </tr>
-               </tbody>
-           </table>
-        </div>
-    </div>
-    <div class="overlay" id="overlay" style="display:none;">
-        <img src="../common/loading.gif" alt="Loading"/>
-    </div>
-
-    </body>
+	</body>
 </html>
