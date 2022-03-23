@@ -27,7 +27,7 @@ const Navigation = () => {
           <NavItem>
             <NavLink
               target="_blank"
-              href="https://github.com/SeanPrashad/leetcode-patterns"
+              href="https://aknottymathematician.github.io/Tracking/"
               onClick={() => Event('Navigation', 'Clicked link', 'GitHub link')}
             >
               <FaGithub />
