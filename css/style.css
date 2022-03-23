@@ -69,11 +69,11 @@ th {
 }
 
 th:hover {
-  background-color: #fdf893;
+  background-color: #ffb0b0;
 }
 
 .order:hover {
-  background-color: #fdf893 !important;
+  background-color: #ffb0b0 !important;
 }
 
 .err {

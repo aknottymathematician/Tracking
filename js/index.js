@@ -1,4 +1,4 @@
-console.log('\nDeveloped by Ali Tursucular\n\nLinkedIn: https://www.linkedin.com/in/alitursucular/\nPersonal Portfolio: https://alitursucular.github.io');
+console.log('\nDeveloped by Jasraj Date\n\nPersonal Portfolio: https://aknottymathematician.github.io/');
 
 import { orders } from './orders.js';
 
