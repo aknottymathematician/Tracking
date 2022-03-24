@@ -6,7 +6,7 @@ export const orders = [
     "Problem": "<a href=\https://leetcode.com/problems/boats-to-save-people/\target=\_blank\><u>881. Boats to Save People </u></a>",
     "Difficulty": "",
     "Tag": "",
-    "Solution": "<a href=https://aknottymathematician.github.io/dsa/boat-to-save-people/><u>Solution</u></a>",
+    "Solution": "<a href=https://aknottymathematician.github.io/dsa/boat-to-save-people/\target=\_blank\><u>Solution</u></a>",
     "Comments": ""
   },
   {
