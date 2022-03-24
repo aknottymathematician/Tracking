@@ -6,7 +6,7 @@ export const orders = [
     "Problem": "<a href=\https://leetcode.com/problems/2-keys-keyboard/\target=\_blank\><u>650-2 Keys Keyboard </u></a>",
     "Difficulty": "",
     "Tag": "",
-    "Solution": "<a href=https://aknottymathematician.github.io/simplify-path-of-directories/><i class=fa fa-share fa-4x></i><u>650-2 Keys Keyboard </u></a>",
+    "Solution": "<a href=https://aknottymathematician.github.io/simplify-path-of-directories/><i class=fa fa-external-link></i></a>",
     "Comments": ""
 },
 {
