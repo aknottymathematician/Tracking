@@ -3,15 +3,22 @@
 
 export const orders = [
   {
+    "Problem": "<a href=\https://leetcode.com/problems/two-city-scheduling/\target=\_blank\><u>1029. Two City Scheduling </u></a>",
+    "Difficulty": "Medium",
+    "Tag": "Array, Greedy, Sorting",
+    "Solution": "<a href=https://aknottymathematician.github.io/dsa/two-city-scheduling/\target=\_blank\><u>Solution</u></a>",
+    "Comments": "go thourgh the cost by sorting second half for cityB"
+  },
+  {
     "Problem": "<a href=\https://leetcode.com/problems/boats-to-save-people/\target=\_blank\><u>881. Boats to Save People </u></a>",
-    "Difficulty": "",
-    "Tag": "",
+    "Difficulty": "Medium",
+    "Tag": "Array, Two Pointers, Greedy, Sorting",
     "Solution": "<a href=https://aknottymathematician.github.io/dsa/boat-to-save-people/\target=\_blank\><u>Solution</u></a>",
-    "Comments": ""
+    "Comments": "use sorting to get the sum less than limit"
   },
   {
     "Problem": "<a href=\https://leetcode.com/problems/2-keys-keyboard/\target=\_blank\><u>650-2 Keys Keyboard </u></a>",
-    "Difficulty": "",
+    "Difficulty": "Medium",
     "Tag": "",
     "Solution": "<a href=https://aknottymathematician.github.io/simplify-path-of-directories/><i class=fa fa-external-link></i></a>",
     "Comments": ""
