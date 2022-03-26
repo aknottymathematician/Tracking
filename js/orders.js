@@ -368,10 +368,10 @@ export const orders = [
 },
 {
     "Problem": "<a href=\https://leetcode.com/problems/binary-search/\target=\_blank\><u>Binary Search </u></a>",
-    "Difficulty": "",
-    "Tag": "",
-    "Solution": "",
-    "Comments": ""
+    "Difficulty": "Easy",
+    "Tag": "Array, Binary Search",
+    "Solution": "<a href=https://aknottymathematician.github.io/dsa/binary-search/\target=\_blank\><u>Solution</u></a>",
+    "Comments": "Simple Iteraative and Recusive Binary Search Functions"
 },
 {
     "Problem": "<a href=\https://leetcode.com/problems/merge-sorted-array/\target=\_blank\><u>Merge Sorted Array </u></a>",
@@ -823,16 +823,16 @@ export const orders = [
 },
 {
     "Problem": "<a href=\https://leetcode.com/problems/search-insert-position/\target=\_blank\><u>Search Insert Position </u></a>",
-    "Difficulty": "",
-    "Tag": "",
-    "Solution": "",
-    "Comments": ""
+    "Difficulty": "Easy",
+    "Tag": "Array, Binary Search",
+    "Solution": "<a href=https://aknottymathematician.github.io/dsa/search-insert-position/\target=\_blank\><u>Solution</u></a>",
+    "Comments": "binary search with a twist of return start variable instead of -1"
 },
 {
     "Problem": "<a href=\https://leetcode.com/problems/move-zeroes/\target=\_blank\><u>Move Zeroes</u></a>",
-    "Difficulty": "",
-    "Tag": "",
-    "Solution": "",
-    "Comments": ""
+    "Difficulty": "Easy",
+    "Tag": "Easy",
+    "Solution": "Array, Two Pointers",
+    "Comments": "Use one pointer to traverse and other to find zeros"
 }
 ];
