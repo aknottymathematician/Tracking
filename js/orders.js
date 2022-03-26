@@ -3,6 +3,27 @@
 
 export const orders = [
   {
+    "Problem": "<a href=\https://leetcode.com/problems/average-of-levels-in-binary-tree/\target=\_blank\><u>637. Average of Levels in Binary Tree </u></a>",
+    "Difficulty": "Easy",
+    "Tag": "Trees, BFS, Level Order",
+    "Solution": "<a href=https://aknottymathematician.github.io/dsa/average-of-levels-in-BT/\target=\_blank\><u>Solution</u></a>",
+    "Comments": "while appending to result take average of level array"
+  },
+  {
+    "Problem": "<a href=\https://leetcode.com/problems/binary-tree-level-order-traversal-ii/\target=\_blank\><u>107. Binary Tree Level Order Traversal II </u></a>",
+    "Difficulty": "Medium",
+    "Tag": "Trees, BFS, Level Order",
+    "Solution": "<a href=https://aknottymathematician.github.io/dsa/binary-tree-level-order-traversal/\target=\_blank\><u>Solution</u></a>",
+    "Comments": "traverse through tree using queue and reverse the result"
+  },
+  {
+    "Problem": "<a href=\https://leetcode.com/problems/binary-tree-level-order-traversal/\target=\_blank\><u>102. Binary Tree Level Order Traversal </u></a>",
+    "Difficulty": "Medium",
+    "Tag": "Trees, BFS, Level Order",
+    "Solution": "<a href=https://aknottymathematician.github.io/dsa/binary-tree-level-order-traversal/\target=\_blank\><u>Solution</u></a>",
+    "Comments": "traverse through tree using queue"
+  },
+  {
     "Problem": "<a href=\https://leetcode.com/problems/two-city-scheduling/\target=\_blank\><u>1029. Two City Scheduling </u></a>",
     "Difficulty": "Medium",
     "Tag": "Array, Greedy, Sorting",
