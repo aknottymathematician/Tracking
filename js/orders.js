@@ -371,7 +371,7 @@ export const orders = [
     "Difficulty": "Easy",
     "Tag": "Array, Binary Search",
     "Solution": "<a href=https://aknottymathematician.github.io/dsa/binary-search/\target=\_blank\><u>Solution</u></a>",
-    "Comments": "Simple Iteraative and Recusive Binary Search Functions"
+    "Comments": "Simple Iterative and Recursive Binary Search Functions"
 },
 {
     "Problem": "<a href=\https://leetcode.com/problems/merge-sorted-array/\target=\_blank\><u>Merge Sorted Array </u></a>",
@@ -831,8 +831,8 @@ export const orders = [
 {
     "Problem": "<a href=\https://leetcode.com/problems/move-zeroes/\target=\_blank\><u>Move Zeroes</u></a>",
     "Difficulty": "Easy",
-    "Tag": "Easy",
-    "Solution": "Array, Two Pointers",
+    "Tag": "Array, Two Pointers",
+    "Solution": "<a href=https://aknottymathematician.github.io/dsa/move-zeros/\target=\_blank\><u>Solution</u></a>",
     "Comments": "Use one pointer to traverse and other to find zeros"
 }
 ];
