@@ -3,6 +3,13 @@
 
 export const orders = [
   {
+      "Problem": "<a href=\https://leetcode.com/problems/search-in-rotated-sorted-array-ii/\target=\_blank\><u>Search in Rotated Sorted Array </u></a>",
+      "Difficulty": "Medium",
+      "Tag": "Binary Search, Recursion",
+      "Solution": "<a href=\https://aknottymathematician.github.io/dsa/search-in-rotated-array-ii/\target=\_blank\><u>Solution</u></a>",
+      "Comments": "small twist in binary search by checking inflection point and duplicates"
+  },  
+  {
     "Problem": "<a href=\https://leetcode.com/problems/average-of-levels-in-binary-tree/\target=\_blank\><u>637. Average of Levels in Binary Tree </u></a>",
     "Difficulty": "Easy",
     "Tag": "Trees, BFS, Level Order",
@@ -711,10 +718,10 @@ export const orders = [
 },
 {
     "Problem": "<a href=\https://leetcode.com/problems/search-in-rotated-sorted-array/\target=\_blank\><u>Search in Rotated Sorted Array </u></a>",
-    "Difficulty": "",
-    "Tag": "",
-    "Solution": "",
-    "Comments": ""
+    "Difficulty": "Medium",
+    "Tag": "Binary Search, Recursion",
+    "Solution": "<a href=\https://aknottymathematician.github.io/dsa/search-in-rotated-array/\target=\_blank\><u>Solution</u></a>",
+    "Comments": "small twist in binary search by checking inflection point"
 },
 {
     "Problem": "<a href=\https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/\target=\_blank\><u>Find First and Last Position of Element in Sorted Array </u></a>",
