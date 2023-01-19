@@ -3,7 +3,21 @@
 
 export const orders = [
   {
-      "Problem": "<a href=\https://leetcode.com/problems/search-in-rotated-sorted-array-ii/\target=\_blank\><u>Search in Rotated Sorted Array </u></a>",
+      "Problem": "<a href=https://leetcode.com/problems/valid-palindrome-ii/\target=\_blank\><u>Search in Rotated Sorted Array II</u></a>",
+      "Difficulty": "Medium",
+      "Tag": "String, Two Pointer, Greedy",
+      "Solution": "<a href=\https://aknottymathematician.github.io/dsa/valid-palindrome-ii/\target=\_blank\><u>Solution</u></a>",
+      "Comments": "check function to decide which alphabet to delete"
+  },
+  {
+      "Problem": "<a href=\https://leetcode.com/problems/set-mismatch/\target=\_blank\><u>Search in Rotated Sorted Array II</u></a>",
+      "Difficulty": "Easy",
+      "Tag": "Array, Math",
+      "Solution": "<a href=https://aknottymathematician.github.io/dsa/set-mismatch/\target=\_blank\><u>Solution</u></a>",
+      "Comments": "do simple math for each returning index using simple sum of array"
+  }, 
+  {
+      "Problem": "<a href=\https://leetcode.com/problems/search-in-rotated-sorted-array-ii/\target=\_blank\><u>Search in Rotated Sorted Array II</u></a>",
       "Difficulty": "Medium",
       "Tag": "Binary Search, Recursion",
       "Solution": "<a href=\https://aknottymathematician.github.io/dsa/search-in-rotated-array-ii/\target=\_blank\><u>Solution</u></a>",
